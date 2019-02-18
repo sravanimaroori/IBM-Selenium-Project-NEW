@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  * @see this class will take the records from excel sheet, and return it as list
  *      of list of object, and can be generic, can given any records until it
  *      exists. Test it with main method provided, and the path is hard coded,
- *      participatns are asked to refractor this path in the property file and
+ *      Participants are asked to refractor this path in the property file and
  *      access.
  */
 public class ApachePOIExcelRead {
