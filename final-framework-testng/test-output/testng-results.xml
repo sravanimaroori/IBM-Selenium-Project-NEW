@@ -2,28 +2,60 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23919" started-at="2019-03-01T07:23:10Z" finished-at="2019-03-01T07:23:34Z">
+  <suite name="Default suite" duration-ms="29354" started-at="2019-03-08T16:39:59Z" finished-at="2019-03-08T16:40:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23919" started-at="2019-03-01T07:23:10Z" finished-at="2019-03-01T07:23:34Z">
-      <class name="com.training.sanity.tests.UNF_045">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.UNF_045@47c62251]" name="setUpBeforeClass" is-config="true" duration-ms="16" started-at="2019-03-01T07:23:10Z" finished-at="2019-03-01T07:23:10Z">
+    <test name="Default test" duration-ms="29354" started-at="2019-03-08T16:39:59Z" finished-at="2019-03-08T16:40:28Z">
+      <class name="com.training.sanity.tests.AddProductinDB_UNF_073">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddProductinDB_UNF_073@3e6fa38a]" name="setUpBeforeClass" is-config="true" duration-ms="19" started-at="2019-03-08T16:39:59Z" finished-at="2019-03-08T16:39:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.UNF_045@47c62251]" name="setUp" is-config="true" duration-ms="11319" started-at="2019-03-01T07:23:10Z" finished-at="2019-03-01T07:23:21Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AddProductinDB_UNF_073@3e6fa38a]" name="setUp" is-config="true" duration-ms="10441" started-at="2019-03-08T16:39:59Z" finished-at="2019-03-08T16:40:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.UNF_045@47c62251]" name="validLoginTest" duration-ms="9488" started-at="2019-03-01T07:23:21Z" finished-at="2019-03-01T07:23:31Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.AddProductinDB_UNF_073@3e6fa38a]" name="loginDBTest" duration-ms="16524" started-at="2019-03-08T16:40:10Z" data-provider="db-inputs" finished-at="2019-03-08T16:40:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Socks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[White Socks]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SCK-014]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sports wear]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.UNF_045@47c62251]" name="tearDown" is-config="true" duration-ms="3065" started-at="2019-03-01T07:23:31Z" finished-at="2019-03-01T07:23:34Z">
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.AddProductinDB_UNF_073@3e6fa38a]" name="tearDown" is-config="true" duration-ms="2033" started-at="2019-03-08T16:40:26Z" finished-at="2019-03-08T16:40:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.UNF_045 -->
+      </class> <!-- com.training.sanity.tests.AddProductinDB_UNF_073 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
